@@ -59,6 +59,7 @@ const checkForWinner = () => {
 
     if (roundWon) {
         statusText.textContent = `Player ${currentPlayer} wins!`;
+        alert(`CONGRATS! Player ${currentPlayer} wins!`);
         isGameActive = false;
         return;
     }
