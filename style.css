@@ -9,96 +9,75 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
+    height: 100vh; 
+    width: 100vw; 
+    background-color: aliceblue;
 }
 
-.landing_page, .game.container {
-    text-align: center;
+.game.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(17, 243, 20);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.heading, .game-title {
-    font-size: 2em;
+.bored {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
     margin-bottom: 20px;
 }
 
-.players {
-    margin-bottom: 20px;
-}
-
-.players input {
-    padding: 10px;
-    margin: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: calc(50% - 22px);
-}
-
-.start-btn, .restart-btn, .new-game {
-    padding: 10px 20px;
-    font-size: 1em;
-    border: none;
-    border-radius: 5px;
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #e0e0e0;
+    font-size: 24px;
     cursor: pointer;
-    margin-top: 20px;
+    transition: background-color 0.3s;
 }
 
-.start-btn {
-    background-color: #28a745;
-    color: #fff;
-}
-
-.start-btn:hover {
-    background-color: #218838;
+.cell:hover {
+    background-color: #d0d0d0;
 }
 
 .restart-btn {
-    background-color: rgb(17, 243, 20);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
     color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .restart-btn:hover {
-    background-color: rgb(17, 243, 20);
+    background-color: #0056b3;
 }
 
 .new-game {
+    padding: 10px 20px;
+    font-size: 16px;
     background-color: #007bff;
     color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .new-game:hover {
     background-color: #0056b3;
 }
-
-.bored {
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-gap: 10px;
-    margin: 20px auto;
-}
-
-.cell {
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    cursor: pointer;
-}
-
-.cell:hover {
-    background-color: #f0f0f0;
-}
-
 .status {
     margin-top: 20px;
-    font-size: 1.2em;
+    font-size: 18px;
 }
