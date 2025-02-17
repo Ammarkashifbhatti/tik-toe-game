@@ -13,10 +13,11 @@ body{
 }
 
 .heading{
-    /* margin-top: 200px; */
+    margin-top: 100px;
     font-size: 3rem;
     color: #333;
     text-align: center;
+    margin-bottom: -300px;
 }
 
 .players{
