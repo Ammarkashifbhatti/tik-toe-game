@@ -13,7 +13,7 @@ body{
 }
 
 .heading{
-    margin-top: 300px;
+    margin-top: 200px;
     font-size: 3rem;
     color: #333;
     text-align: center;
@@ -26,8 +26,16 @@ body{
     margin-top: 20px;
 }
 
+.player1, .player2{
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
 .btn{
-    display: inline-block;
+    display: block;
     padding: 10px 20px;
     background-color: rgb(17, 243, 20);
     color: #fff;
