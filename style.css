@@ -63,6 +63,21 @@ body {
     background-color: #0056b3;
 }
 
+.new-game {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.new-game:hover {
+    background-color: #0056b3;
+}
+
 .status {
     margin-top: 20px;
     font-size: 18px;

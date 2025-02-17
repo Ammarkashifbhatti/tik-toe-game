@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const startButton = document.getElementById('start');
     const player1Input = document.getElementById('player1');
     const player2Input = document.getElementById('player2');
+    const newGameButton = document.getElementById('new-game');
 
     if (startButton) {
         startButton.addEventListener('click', () => {
@@ -10,6 +11,12 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('player1', player1);
             localStorage.setItem('player2', player2);
             window.location.href = 'game.html';
+        });
+    }
+
+    if (newGameButton) {
+        newGameButton.addEventListener('click', () => {
+            window.location.href = 'index.html';
         });
     }
 
@@ -56,6 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (checkWinner()) {
                 statusDisplay.textContent = `${currentPlayer} wins!`;
+                alert(`${currentPlayer} wins!`);
                 gameActive = false;
             } else if (!gameState.includes('')) {
                 statusDisplay.textContent = `It's a draw!`;
