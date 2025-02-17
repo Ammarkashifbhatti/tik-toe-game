@@ -13,6 +13,7 @@ body{
 }
 
 .heading{
+    padding-top: 300px;
     font-size: 3rem;
     color: #333;
     text-align: center;
