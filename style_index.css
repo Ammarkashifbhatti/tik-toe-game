@@ -27,7 +27,7 @@ body{
 }
 
 .player1, .player2{
-    display: block;
+    display: grid;
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
@@ -35,11 +35,5 @@ body{
 }
 
 .btn{
-    display: block;
-    padding: 10px 20px;
-    background-color: rgb(17, 243, 20);
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
+
 }
