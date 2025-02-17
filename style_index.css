@@ -34,6 +34,13 @@ body{
     margin: 0 10px;
 }
 
-.btn{
-
+.start-btn{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(17, 243, 20);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
