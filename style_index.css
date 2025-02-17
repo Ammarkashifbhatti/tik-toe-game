@@ -13,7 +13,7 @@ body{
 }
 
 .heading{
-    padding-top: 300px;
+    margin-top: 300px;
     font-size: 3rem;
     color: #333;
     text-align: center;
@@ -23,7 +23,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-inline: 20px;
     margin-top: 20px;
 }
 
