@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic-tak-toe</title>
-    <link rel="stylesheet" href="style.css">
+    <title>tic-tak-toe</title>
+    <link rel="stylesheet" href="style_index.css">
 </head>
 <body>
-    <div class="game container">
-        <div id="bored" class="bored">
+    <div class="landing_page">
+        <h1 class="heading">Tic Tac Toe</h1>
+        <div class="players">
+            <input type="text" id="player1" class="player1" placeholder="Player 1">
+            <input type="text" id="player2" class="player2" placeholder="Player 2">
+        </div>
+        <button id="start" class="start-btn">Start</button>
+        <!-- <div id="bored" class="bored">
             <div class="cell" data-index="0"></div>
             <div class="cell" data-index="1"></div>
             <div class="cell" data-index="2"></div>
@@ -18,10 +24,9 @@
             <div class="cell" data-index="6"></div>
             <div class="cell" data-index="7"></div>
             <div class="cell" data-index="8"></div>
-        </div>
-        <button id="restart" class="restart-btn">Restart</button>
-        <p id="status" class="status">Player X's turn</p>
-        
+        </div> -->
+        <!-- <button id="restart" class="restart-btn">Restart</button>
+        <p id="status" class="status">Player X's turn</p>       -->
     </div>
     <script src="script.js"></script>
 </body>

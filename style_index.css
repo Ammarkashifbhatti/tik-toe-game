@@ -1,0 +1,29 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.landing_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heading{
+    font-size: 3rem;
+    color: #333;
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(17, 243, 20);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
