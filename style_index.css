@@ -13,7 +13,7 @@ body{
 }
 
 .heading{
-    margin-top: 200px;
+    /* margin-top: 200px; */
     font-size: 3rem;
     color: #333;
     text-align: center;
