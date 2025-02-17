@@ -16,7 +16,7 @@ body {
 
 .landing_page, .game.container {
     text-align: center;
-    background-color: #fff;
+    background-color: rgb(17, 243, 20);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -58,12 +58,12 @@ body {
 }
 
 .restart-btn {
-    background-color: #dc3545;
+    background-color: rgb(17, 243, 20);
     color: #fff;
 }
 
 .restart-btn:hover {
-    background-color: #c82333;
+    background-color: rgb(17, 243, 20);
 }
 
 .new-game {
