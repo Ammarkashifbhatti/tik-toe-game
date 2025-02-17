@@ -6,7 +6,7 @@ body{
 }
 
 .landing_page{
-    display: block;
+    /* display: block; */
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -16,6 +16,13 @@ body{
     font-size: 3rem;
     color: #333;
     text-align: center;
+}
+
+.players{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .btn{
