@@ -38,7 +38,7 @@ body.dark-mode {
 }
 
 body.dark-mode .landing_page, body.dark-mode .game.container {
-    background-color: #333;
+    background-color: brown;
     color: #ffffff;
 }
 
