@@ -36,7 +36,7 @@ body{
 
 .start-btn{
     display: block;
-    margin: 20px auto;
+    margin: auto;
     font-size: 16px;
     padding: 10px 20px;
     background-color: rgb(17, 243, 20);
