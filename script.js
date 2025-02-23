@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const startButton = document.getElementById('start');
     const player1Input = document.getElementById('player1');
     const player2Input = document.getElementById('player2');
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
     const newGameButton = document.getElementById('new-game');
 
     if (startButton) {
@@ -11,6 +12,12 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('player1', player1);
             localStorage.setItem('player2', player2);
             window.location.href = 'game.html';
+        });
+    }
+
+    if (darkModeToggle) {
+        darkModeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
         });
     }
 
