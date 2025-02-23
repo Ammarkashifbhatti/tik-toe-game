@@ -9,9 +9,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
-    width: 100vw; 
-    background-color: aliceblue;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
 }
 
 .main {
@@ -22,82 +28,82 @@ body {
     height: 100vh;
 }
 
-.game.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(17, 243, 20);
+.landing_page, .game.container {
+    text-align: center;
+    background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.bored {
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
-    gap: 5px;
+body.dark-mode .landing_page, body.dark-mode .game.container {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.heading, .game-title {
+    font-size: 2em;
     margin-bottom: 20px;
 }
 
-.cell {
+.players {
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
-    background-color: #e0e0e0;
-    font-size: 24px;
-    cursor: pointer;
-    transition: background-color 0.3s;
 }
 
-.cell:hover {
-    background-color: #d0d0d0;
-}
-
-.restart-btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
+.players input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    width: calc(50% - 22px);
 }
 
-.restart-btn:hover {
-    background-color: #0056b3;
-}
-
-.new-game {
-    padding: 10px 20px;
-    margin-top: 20px;
-    font-size: 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
+.player1, .player2 {
+    display: grid;
+    padding: 20px;
+    background-color: #fff;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    margin: 0 10px;
 }
 
-.new-game:hover {
-    background-color: #0056b3;
-}
-.status {
-    margin-top: 20px;
-    font-size: 18px;
-}
-
-.dark-mode-toggle {
+.start-btn, .restart-btn, .new-game, .dark-mode-toggle {
     padding: 10px 20px;
     font-size: 1em;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
+}
+
+.start-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.start-btn:hover {
+    background-color: #218838;
+}
+
+.restart-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.restart-btn:hover {
+    background-color: #c82333;
+}
+
+.new-game {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.new-game:hover {
+    background-color: #0056b3;
 }
 
 .dark-mode-toggle {
@@ -110,4 +116,32 @@ body {
 
 .dark-mode-toggle:hover {
     background-color: #0056b3;
+}
+
+.bored {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+
+.status {
+    margin-top: 20px;
+    font-size: 1.2em;
 }
