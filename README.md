@@ -24,9 +24,10 @@ A simple and interactive **Tic-Tac-Toe** (also known as **Noughts and Crosses**)
 
 ## 📸 Screenshots
 
-![Tic-Tac-Toe Screenshot](https://user-images.githubusercontent.com/your-screenshot-url.png)
+![image](https://github.com/user-attachments/assets/0e341deb-93ba-48fa-9727-ff817e5dd5e2)
+![image](https://github.com/user-attachments/assets/4bfbf484-5fed-465a-a5fc-cc89ea4dfcb4)
 
-*(Replace the above link with your own screenshot if desired)*
+
 
 ## 🚀 Getting Started
 
@@ -36,3 +37,23 @@ To run this project locally:
    ```bash
    git clone https://github.com/Ammarkashifbhatti/tik-toe-game.git
 
+## 📚 Concepts Used
+
+- HTML5 semantics
+- CSS Flexbox for layout
+- Vanilla JavaScript for:
+- Event handling
+- Game logic and conditions
+- DOM manipulation
+
+## 🙌 Contributing
+
+   Want to improve the game or add new features (like an AI player, score tracking, or sound effects)? Feel free to fork the repo and submit a pull request!
+
+## 📄 License
+
+   This project is licensed under the MIT License.
+
+## 👨‍💻 Authors
+
+ - [Ammar Kashif Bhatti] ()
