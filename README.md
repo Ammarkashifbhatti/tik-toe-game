@@ -56,4 +56,5 @@ To run this project locally:
 
 ## 👨‍💻 Authors
 
- - [Ammar Kashif Bhatti] ()
+ - [Ammar Kashif Bhatti](https://github.com/Ammarkashifbhatti)
+ - [Muhammad Ali](https://github.com/sheikh-ali3)
