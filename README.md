@@ -12,3 +12,27 @@ A simple and interactive **Tic-Tac-Toe** (also known as **Noughts and Crosses**)
 |----- script.js
 |----- game.html
 |----- style_index.css
+
+
+## 🧠 Features
+
+- Two-player gameplay (X and O)
+- Real-time turn-based updates
+- Win and draw detection
+- Game restart functionality
+- Minimal, responsive design
+
+## 📸 Screenshots
+
+![Tic-Tac-Toe Screenshot](https://user-images.githubusercontent.com/your-screenshot-url.png)
+
+*(Replace the above link with your own screenshot if desired)*
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ammarkashifbhatti/tik-toe-game.git
+
